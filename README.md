@@ -47,7 +47,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Working Test
 
-[Working test of readme-generator](./Develop/assets/readme-generator.png)
+![Working test of readme-generator](./Develop/assets/readme-generator.png)
 
 ## Getting Started
 
