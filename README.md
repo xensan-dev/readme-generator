@@ -12,7 +12,7 @@ a script that prompts the user to enter data and renders a readme.md file for th
 1.  [title](#title)
 2.  [description](#description)
 3.  [installation](#installation)
-4.  [usage](#useage)
+4.  [usage](#usage)
 5.  [license](#license)
 6.  [contributors](#contributors)
 7.  [tests](#tests)
