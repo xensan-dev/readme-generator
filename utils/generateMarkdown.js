@@ -37,43 +37,43 @@ function renderLicenseLink(license) {
 // Generate markdown for README
 function generateMarkdown(data) {
     return `# Title
-    ${data.title}
+${data.title}
 
-    ${renderLicenseBadge(data.license)}
+${renderLicenseBadge(data.license)}
     
-    ## Description
-    ${data.description} 
+## Description
+${data.description} 
     
-    [Alt text](./"Link to attached video file of your project)
+[Alt text](./"Link to attached video file of your project)
     
-    ## Table of Contents
-    1.  [title](#title)
-    2.  [description](#description)
-    3.  [installation](#installation)
-    4.  [usage](#useage)
-    5.  [license](#license)
-    6.  [contributors](#contributors)
-    7.  [tests](#tests)
-    8.  [questions](#questions)
+## Table of Contents
+1.  [title](#title)
+2.  [description](#description)
+3.  [installation](#installation)
+4.  [usage](#useage)
+5.  [license](#license)
+6.  [contributors](#contributors)
+7.  [tests](#tests)
+8.  [questions](#questions)
     
-    ## Installation
-    ${data.installation}
+## Installation
+${data.installation}
     
-    ## Usage
-    ${data.usage}
+## Usage
+${data.usage}
     
-    ${renderLicenseSection(data.license)}
+${renderLicenseSection(data.license)}
     
-    ## Contributors
-    ${data.contributors}
+## Contributors
+${data.contributors}
     
-    ## Tests 
-    ${data.tests}
+## Tests 
+${data.tests}
     
-    ## Questions
-    Have any questions about this project? Reach me here
-    [${data.username}](https://github.com/${data.username})
-    `
+## Questions
+Have any questions about this project? Reach me here
+[${data.username}](https://github.com/${data.username})
+`
 }
 
 module.exports = generateMarkdown;
